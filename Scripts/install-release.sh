@@ -192,7 +192,11 @@ download_https() {
 release_json="$temporary_directory/release.json"
 print -- "Checking the latest public release in $repository…"
 download_https "https://api.github.com/repos/$repository/releases/latest" "$release_json" 1048576 api
-/usr/bin/plutil -lint "$release_json" >/dev/null || fail 'GitHub returned invalid release metadata.'
+# plutil -lint only validates property-list input; it rejects valid GitHub JSON.
+# Conversion validates JSON and gives the typed extraction below a plist input.
+release_plist="$temporary_directory/release.plist"
+/usr/bin/plutil -convert xml1 -o "$release_plist" "$release_json" >/dev/null || fail 'GitHub returned invalid release metadata.'
+release_json="$release_plist"
 [[ "$(/usr/bin/plutil -extract draft raw -expect bool -o - "$release_json" 2>/dev/null)" == false ]] || fail 'Draft releases are not installable.'
 [[ "$(/usr/bin/plutil -extract prerelease raw -expect bool -o - "$release_json" 2>/dev/null)" == false ]] || fail 'Prereleases are not installed by the stable channel.'
 release_tag="$(json_string tag_name "$release_json")" || fail 'The release tag is missing.'
