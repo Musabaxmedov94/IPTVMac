@@ -171,6 +171,9 @@ download_https() {
       --connect-timeout 20 --max-time 600 --max-redirs 0 --max-filesize "$maximum_bytes" \
       --header 'Accept: application/vnd.github+json' --header 'X-GitHub-Api-Version: 2022-11-28' \
       --output "$output_file" --write-out $'%{http_code}\n%{redirect_url}' --url "$request_url")"; then
+      if [[ "$request_kind" == api && "${response_info%%$'\n'*}" == 404 ]]; then
+        fail 'No stable public Release is available at this repository. The download helper exists, but the app ZIP must be published first. Nothing was installed.'
+      fi
       fail 'GitHub download failed. Check the public repository, network, and unauthenticated API rate limit; nothing was installed.'
     fi
     http_status="${response_info%%$'\n'*}"
@@ -262,9 +265,10 @@ retain_download() {
   print -- "Verified archive saved to: $retained_download_directory/$asset_name"
 }
 if [[ "$download_only" == true ]]; then
+  print 'Download-only mode: Developer ID/notarization acceptance is not required by this command. macOS may warn or block the app; launch approval is your decision.'
   retain_download
   print 'Bundle identifier, version, architecture, SHA-256, and Apple/team signature verified. No application was installed or launched.'
-  print 'A normal first launch still requires Developer ID distribution/notarization and macOS approval.'
+  print 'The app has not been notarized by this helper. Open it normally in Finder and follow macOS approval. This command does not disable security protections.'
   exit 0
 fi
 
