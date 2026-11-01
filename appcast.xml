@@ -1,0 +1,62 @@
+<?xml version="1.0" standalone="yes"?><!-- sparkle-sign-warning:
+IMPORTANT: This file was signed by Sparkle. Any modifications to this file requires re-signing this file with generate_appcast or sign_update! The signed signature will be embedded at the end of this file.
+--><rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+    <channel>
+        <title>IPTVMac</title>
+        <item>
+            <title>0.25.35</title>
+            <pubDate>Sun, 01 Nov 2026 22:11:49 +0400</pubDate>
+            <link>https://github.com/Musabaxmedov94/IPTVMac/releases/tag/v0.25.35</link>
+            <sparkle:version>2535</sparkle:version>
+            <sparkle:shortVersionString>0.25.35</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="plain-text"><![CDATA[# IPTVMac 0.25.35 — Apple Silicon, unnotarized
+
+This is the owner's explicitly approved **unnotarized, Apple Development-signed**
+release. It is not Developer ID-signed and has not been notarized by Apple.
+macOS may warn or block it. Download/hash/signature verification does not promise
+first-launch acceptance, and no security protection is disabled by the helper.
+
+## Download
+
+- Apple Silicon (arm64), macOS 14 or newer. No Intel/Universal binary is provided.
+- Download `IPTVMac-macos-arm64.zip`, or use the repository's reviewed terminal
+  helper with `--repo Musabaxmedov94/IPTVMac --download-only`.
+- The helper downloads and verifies the ZIP; it never installs, replaces or
+  launches an application. Install manually with Finder after quitting an older
+  IPTVMac normally. Account workspaces and playlists are outside the app bundle.
+
+## Included
+
+- Account-separated local libraries and provider credentials.
+- Provider-neutral M3U and Xtream connections; each user supplies their own.
+- Shared TMDB metadata routing and explicit signed in-app update support.
+- A rebuilt dynamically linked LGPL media runtime, with OpenGL rendering,
+  subtitles and native macOS audio support.
+
+No personal provider links, passwords, playlist/catalogue databases, viewing
+history or Keychain exports are included. Firebase client configuration and
+public service/update URLs are part of the app; server credentials are not.
+
+## Third-party runtime source and notices
+
+`IPTVMac-Runtime-Sources.zip` contains the exact runtime source archives,
+checksums, build recipes and license/copyright notices. The app also contains
+third-party notices. Application source is maintained separately in a private
+repository; this asset is the source of the redistributable media libraries,
+not the owner's private application or user data.
+
+The update feed and application archive are signed with the owner's separate
+Sparkle update key. Apple notarization is a different process and is not claimed
+by those signatures. A real separate-Mac launch and version-to-version update
+acceptance check remains the recipient's test, not a result established by this
+download.
+]]></description>
+            <enclosure url="https://github.com/Musabaxmedov94/IPTVMac/releases/download/v0.25.35/IPTVMac-macos-arm64.zip" length="23856877" type="application/octet-stream" sparkle:edSignature="Z4+eseqMnPzE6ej5qOeDpRB06VPtuhZ75Hr0kxDyy0WekllZsQ/4uXVAhEYwCoFnGltWNdepeOmak+01XZ1xDg=="></enclosure>
+        </item>
+    </channel>
+</rss><!-- sparkle-signatures:
+edSignature: 3lHxcOK4qm/6+sLo8iw3VblJynsESylGaHh8vRZUDhUgNY8a/wjB1t7uM/+StVQphU1XMHeuWe0U5W1zADJMCQ==
+length: 3457
+-->
