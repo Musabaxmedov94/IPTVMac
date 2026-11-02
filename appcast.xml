@@ -4,59 +4,36 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>IPTVMac</title>
         <item>
-            <title>0.25.35</title>
-            <pubDate>Sun, 01 Nov 2026 22:11:49 +0400</pubDate>
-            <link>https://github.com/Musabaxmedov94/IPTVMac/releases/tag/v0.25.35</link>
-            <sparkle:version>2535</sparkle:version>
-            <sparkle:shortVersionString>0.25.35</sparkle:shortVersionString>
+            <title>0.25.37</title>
+            <pubDate>Mon, 02 Nov 2026 17:16:27 +0400</pubDate>
+            <link>https://github.com/Musabaxmedov94/IPTVMac/releases/tag/v0.25.37</link>
+            <sparkle:version>2537</sparkle:version>
+            <sparkle:shortVersionString>0.25.37</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="plain-text"><![CDATA[# IPTVMac 0.25.35 — Apple Silicon, unnotarized
+            <description sparkle:format="plain-text"><![CDATA[# IPTVMac 0.25.37
 
-This is the owner's explicitly approved **unnotarized, Apple Development-signed**
-release. It is not Developer ID-signed and has not been notarized by Apple.
-macOS may warn or block it. Download/hash/signature verification does not promise
-first-launch acceptance, and no security protection is disabled by the helper.
+- Trending Movies and Trending Shows now browse multiple TMDB pages and match them against the selected playlist locally.
+- Home preloads a useful window; open a Trending heading to browse the extended list. Scrolling prefetches more matches, with consecutive visible numbering.
+- One local catalogue index serves subsequent pages. Public feed pages are cached on the device, and already loaded cards survive a detail-page visit and return.
+- Failed page requests retain the loaded cards and offer Retry.
+- Movie and series details have a dedicated outline/filled Favorites heart. Favorites is removed from the detail + menu.
+- The detail ellipsis includes persistent Mark as Watched / Mark as Unwatched choices, separate from playback history and resume positions.
 
-## Download
+This version keeps the shared Apps Script TMDB service and the publisher's updated paging deployment. The separately discussed direct-TMDB/token-configuration proposal is not included. A title appears only when it can be matched to the selected provider; the number of playable results depends on that overlap. First-load network latency can still occur.
 
-- Apple Silicon (arm64), macOS 14 or newer. No Intel/Universal binary is provided.
-- Download `IPTVMac-macos-arm64.zip`, or use the repository's reviewed terminal
-  helper with `--repo Musabaxmedov94/IPTVMac --download-only`.
-- The helper downloads and verifies the ZIP; it never installs, replaces or
-  launches an application. Install manually with Finder after quitting an older
-  IPTVMac normally. Account workspaces and playlists are outside the app bundle.
+Validation: 142 selected native tests, two opt-in tests skipped, zero failures; 42 offline bridge tests passed. Separate-Mac update installation/relaunch has not been established by these local tests.
 
-## Included
+Apple Silicon (arm64), macOS 14 or newer. This is the owner's approved Apple Development-signed, unnotarized release; it is not Developer ID-signed or notarized. macOS may warn or block first launch. No security protection is disabled by the download helper.
 
-- Account-separated local libraries and provider credentials.
-- Provider-neutral M3U and Xtream connections; each user supplies their own.
-- Shared TMDB metadata routing and explicit signed in-app update support.
-- A rebuilt dynamically linked LGPL media runtime, with OpenGL rendering,
-  subtitles and native macOS audio support.
+No personal M3U/Xtream links, provider passwords, playlist databases or viewing history are included. Firebase public client configuration and service/update URLs are intentional. Application source remains in the private source repository.
 
-No personal provider links, passwords, playlist/catalogue databases, viewing
-history or Keychain exports are included. Firebase client configuration and
-public service/update URLs are part of the app; server credentials are not.
-
-## Third-party runtime source and notices
-
-`IPTVMac-Runtime-Sources.zip` contains the exact runtime source archives,
-checksums, build recipes and license/copyright notices. The app also contains
-third-party notices. Application source is maintained separately in a private
-repository; this asset is the source of the redistributable media libraries,
-not the owner's private application or user data.
-
-The update feed and application archive are signed with the owner's separate
-Sparkle update key. Apple notarization is a different process and is not claimed
-by those signatures. A real separate-Mac launch and version-to-version update
-acceptance check remains the recipient's test, not a result established by this
-download.
+IPTVMac-Runtime-Sources.zip contains the unchanged redistributable LGPL media runtime's exact sources, build recipes, patches, checksums and notices. Third-party notices are also included in the application.
 ]]></description>
-            <enclosure url="https://github.com/Musabaxmedov94/IPTVMac/releases/download/v0.25.35/IPTVMac-macos-arm64.zip" length="23856877" type="application/octet-stream" sparkle:edSignature="Z4+eseqMnPzE6ej5qOeDpRB06VPtuhZ75Hr0kxDyy0WekllZsQ/4uXVAhEYwCoFnGltWNdepeOmak+01XZ1xDg=="></enclosure>
+            <enclosure url="https://github.com/Musabaxmedov94/IPTVMac/releases/download/v0.25.37/IPTVMac-macos-arm64.zip" length="24006212" type="application/octet-stream" sparkle:edSignature="bepPgCh3a9bZ8xHwu6VjOTCgNLfV0gkDC+3NpE6LWhu95o9jhgyPBR8pK2o6AbaP/VnmNqrYqmbZ4q2mA8INAg=="></enclosure>
         </item>
     </channel>
 </rss><!-- sparkle-signatures:
-edSignature: 3lHxcOK4qm/6+sLo8iw3VblJynsESylGaHh8vRZUDhUgNY8a/wjB1t7uM/+StVQphU1XMHeuWe0U5W1zADJMCQ==
-length: 3457
+edSignature: B2X7uUlFq4fYy1IfbVlN0muzeJqrnleXOhOGpxJ//HK6Tlb/p4YXxblL4lnGbvcgi+SljXw+Dg0sHIvCxefCBg==
+length: 3362
 -->
