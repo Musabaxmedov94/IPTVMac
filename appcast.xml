@@ -4,36 +4,23 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>IPTVMac</title>
         <item>
-            <title>0.25.37</title>
-            <pubDate>Mon, 02 Nov 2026 17:16:27 +0400</pubDate>
-            <link>https://github.com/Musabaxmedov94/IPTVMac/releases/tag/v0.25.37</link>
-            <sparkle:version>2537</sparkle:version>
-            <sparkle:shortVersionString>0.25.37</sparkle:shortVersionString>
+            <title>0.25.38</title>
+            <pubDate>Mon, 02 Nov 2026 22:46:00 +0400</pubDate>
+            <link>https://github.com/Musabaxmedov94/IPTVMac/releases/tag/v0.25.38</link>
+            <sparkle:version>2538</sparkle:version>
+            <sparkle:shortVersionString>0.25.38</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="plain-text"><![CDATA[# IPTVMac 0.25.37
+            <description sparkle:format="plain-text"><![CDATA[IPTVMac 0.25.38
+- Direct TMDB integration
+- More resilient artwork loading
 
-- Trending Movies and Trending Shows now browse multiple TMDB pages and match them against the selected playlist locally.
-- Home preloads a useful window; open a Trending heading to browse the extended list. Scrolling prefetches more matches, with consecutive visible numbering.
-- One local catalogue index serves subsequent pages. Public feed pages are cached on the device, and already loaded cards survive a detail-page visit and return.
-- Failed page requests retain the loaded cards and offer Retry.
-- Movie and series details have a dedicated outline/filled Favorites heart. Favorites is removed from the detail + menu.
-- The detail ellipsis includes persistent Mark as Watched / Mark as Unwatched choices, separate from playback history and resume positions.
-
-This version keeps the shared Apps Script TMDB service and the publisher's updated paging deployment. The separately discussed direct-TMDB/token-configuration proposal is not included. A title appears only when it can be matched to the selected provider; the number of playable results depends on that overlap. First-load network latency can still occur.
-
-Validation: 142 selected native tests, two opt-in tests skipped, zero failures; 42 offline bridge tests passed. Separate-Mac update installation/relaunch has not been established by these local tests.
-
-Apple Silicon (arm64), macOS 14 or newer. This is the owner's approved Apple Development-signed, unnotarized release; it is not Developer ID-signed or notarized. macOS may warn or block first launch. No security protection is disabled by the download helper.
-
-No personal M3U/Xtream links, provider passwords, playlist databases or viewing history are included. Firebase public client configuration and service/update URLs are intentional. Application source remains in the private source repository.
-
-IPTVMac-Runtime-Sources.zip contains the unchanged redistributable LGPL media runtime's exact sources, build recipes, patches, checksums and notices. Third-party notices are also included in the application.
+This build is not notarized. macOS may block the first launch.
 ]]></description>
-            <enclosure url="https://github.com/Musabaxmedov94/IPTVMac/releases/download/v0.25.37/IPTVMac-macos-arm64.zip" length="24006212" type="application/octet-stream" sparkle:edSignature="bepPgCh3a9bZ8xHwu6VjOTCgNLfV0gkDC+3NpE6LWhu95o9jhgyPBR8pK2o6AbaP/VnmNqrYqmbZ4q2mA8INAg=="></enclosure>
+            <enclosure url="https://github.com/Musabaxmedov94/IPTVMac/releases/download/v0.25.38/IPTVMac-macos-arm64.zip" length="24043461" type="application/octet-stream" sparkle:edSignature="cT6+fUYR7n+GZYJWb3vQIo90qAT/KJRFJoSOmyno5sxdEqyy2i0Rb/Gc6NsYYkkFICSFYLADlKfh5bux5OwKAQ=="></enclosure>
         </item>
     </channel>
 </rss><!-- sparkle-signatures:
-edSignature: B2X7uUlFq4fYy1IfbVlN0muzeJqrnleXOhOGpxJ//HK6Tlb/p4YXxblL4lnGbvcgi+SljXw+Dg0sHIvCxefCBg==
-length: 3362
+edSignature: k7Zh1FGoc3/BSn2aQseGwNk9pZZ2z527edJtCu5rNfPkLDnJDYI77MMxCXTY6wWH49gmaF3IYWw/WrguP3ijBQ==
+length: 1447
 -->
