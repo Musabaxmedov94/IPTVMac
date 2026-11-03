@@ -4,30 +4,21 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>IPTVMac</title>
         <item>
-            <title>0.25.44</title>
-            <pubDate>Tue, 03 Nov 2026 18:51:52 +0400</pubDate>
-            <link>https://github.com/Musabaxmedov94/IPTVMac/releases/tag/v0.25.44</link>
-            <sparkle:version>2544</sparkle:version>
-            <sparkle:shortVersionString>0.25.44</sparkle:shortVersionString>
+            <title>0.25.45</title>
+            <pubDate>Tue, 03 Nov 2026 22:37:38 +0400</pubDate>
+            <link>https://github.com/Musabaxmedov94/IPTVMac/releases/tag/v0.25.45</link>
+            <sparkle:version>2545</sparkle:version>
+            <sparkle:shortVersionString>0.25.45</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="plain-text"><![CDATA[Downloads retain their partial files across network failures and rejected retries, including HTTP 509.
-
-- New transfers write into app-owned private partial files instead of depending on an expiring OS resume blob.
-- Retry and reopening the app use the real file size. Byte ranges, available validators, total size and overlapping bytes are checked before appending.
-- A server ignoring a resume range or returning changed data leaves the partial intact; the app does not silently restart or overwrite it.
-- Cancellation, Quit, account lock and player handoff drain file/network work before another transfer starts. The one-media-connection queue remains in place.
-- Legacy OS-owned transfers keep their existing resume metadata until completion. Partial bytes already lost in an earlier version cannot be recovered by this update.
-- Existing Reconnect/offline controls are unchanged. No new refresh button was added.
-
-Validation: 447 relevant tests passed with one optional Vision test skipped; the final 72 download/codec/transfer regression tests also passed after the queue, missing-partial and MP4 checkpoint recovery fixes. Synthetic tests cover a connection drop, a 509 retry and a new manager reopening the same partial file and completing an exact byte-for-byte download. The live provider was not contacted during testing.
-
-Apple Silicon, macOS 14+. Development-signed and unnotarized as requested. Contains no personal playlist or provider subscription. HTTP 509 remains a provider restriction; resuming requires the provider to honor byte ranges.
+            <description sparkle:format="plain-text"><![CDATA[- Live TV now keeps the programme guide loading while you switch between Home, Live and TV Guide, and picks up an updated guide saved for the same playlist.
+- The channel panel shows the current programme, time remaining, description and upcoming schedule when available. It distinguishes loading and guide errors from a missing schedule.
+- The compact channel actions menu includes Favorites, lists, Layout and Display Options.
 ]]></description>
-            <enclosure url="https://github.com/Musabaxmedov94/IPTVMac/releases/download/v0.25.44/IPTVMac-macos-arm64.zip" length="24567552" type="application/octet-stream" sparkle:edSignature="gzRFkSbBb5rIhRbg2UAOdezed7VPruxF4L0WM7M8GyymWAZFWQjVCHYiJ4654Z/4VBETauCDNFAovbpq0UgLDQ=="></enclosure>
+            <enclosure url="https://github.com/Musabaxmedov94/IPTVMac/releases/download/v0.25.45/IPTVMac-macos-arm64.zip" length="24587940" type="application/octet-stream" sparkle:edSignature="igPNB8wNDWiVoQ+D0J9fz5WrPZdMUpD5gSf/ecRd1s98EA2Epj8aUqyZ1AUB9TRc0chURV1EATwe5LYII2fAAA=="></enclosure>
         </item>
     </channel>
 </rss><!-- sparkle-signatures:
-edSignature: tgmaVkJT78C703q2CHBWuM92j06asaEEypKcsOp4euIBbAHlIoEbnRYGMepca/gZDMgXjqEVIYekKLoeSFQKAQ==
-length: 2867
+edSignature: YcIm/8A1Voy2XnLvG79glV5i2UIz5IBWQYuOeC496jdtx1yPhafo4MZbBccUaQ1HEvkCKSX2lsQ0+HW/CWQEDg==
+length: 1737
 -->
