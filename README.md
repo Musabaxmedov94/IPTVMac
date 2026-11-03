@@ -49,9 +49,11 @@ signed update, asks for confirmation, installs it, and relaunches IPTVMac.
 An update requires both a newer stable GitHub Release and a matching signed
 `appcast.xml`; pushing source code alone does not publish an app update.
 
-This repository contains no GitHub login token, TMDB token, Apple signing key,
-Firebase administrator key, provider credentials or user library. Sparkle's
-license and attribution are included with the application bundle.
+Repository source files contain no GitHub login token, TMDB token, Apple signing
+key, Firebase administrator key, provider credentials or user library. The ready-made
+application includes a build-supplied TMDB read credential for direct TMDB access;
+it can be extracted from the application bundle. Sparkle's license and attribution
+are included with the application bundle.
 
 ## Media runtime sources and licenses
 
