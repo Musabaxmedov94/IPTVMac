@@ -4,29 +4,27 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>IPTVMac</title>
         <item>
-            <title>0.25.41</title>
-            <pubDate>Tue, 03 Nov 2026 15:53:45 +0400</pubDate>
-            <link>https://github.com/Musabaxmedov94/IPTVMac/releases/tag/v0.25.41</link>
-            <sparkle:version>2541</sparkle:version>
-            <sparkle:shortVersionString>0.25.41</sparkle:shortVersionString>
+            <title>0.25.42</title>
+            <pubDate>Tue, 03 Nov 2026 16:29:06 +0400</pubDate>
+            <link>https://github.com/Musabaxmedov94/IPTVMac/releases/tag/v0.25.42</link>
+            <sparkle:version>2542</sparkle:version>
+            <sparkle:shortVersionString>0.25.42</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="plain-text"><![CDATA[Downloads now use one media connection at a time. Opening the player pauses active downloads after their connection is closed; closing the player resumes only automatically paused downloads. Other downloads wait in a queue.
+            <description sparkle:format="plain-text"><![CDATA[TMDB metadata and trailers now resolve same-title, same-year films and shows when the playlist supplies a matching trusted TMDB poster. The app compares exact poster gallery assets across verified candidates and uses only one unambiguous match; unrelated years and remakes remain separate.
 
-Completed downloads now have a confirmed Delete action that moves the original and any MP4 copy to Trash and removes the app entry. Missing files are detected when returning to Downloads or reactivating the app.
+Supports regional TMDB poster URL presets such as w600_and_h900_bestv2. The matching rule is shared by details and artwork, and Home uses the same poster-aware cache identity. Previous no-match entries are refreshed with the new matching version.
 
-New optional Create MP4 Copy action copies compatible video/audio from a completed MKV without re-encoding. The original MKV, including subtitles, is kept. Uses the bundled FFmpeg helper and existing LGPL media runtime; no extra installation is needed.
+Once selected, descriptions and cast appear independently from optional trailer loading. Existing language fallback still loads an English trailer when the requested language has none.
 
-HTTP 509 now explains provider connection/bandwidth limits without automatic retry loops. Provider limits and streams opened by other applications/devices remain outside the app's control.
+Validation: 253 focused checks passed; 2 optional catalogue/timing audits were skipped. Live acceptance using the actual regional Alice in Wonderland (2010) poster resolved the Disney film, metadata, images and trailer in approximately 0.62 seconds in one test. Timing varies by network and cache state. No movie-specific ID exception was added to production code.
 
-Validated with 66 focused download, playback and account tests, including local HTTP pause/resume, a one-connection peak, deletion and real MP4 stream-copy tests using the signed bundled helper. No personal playlists or provider credentials are included.
-
-Apple Silicon, macOS 14+. This owner-approved release is development-signed and unnotarized.
+Apple Silicon, macOS 14+. Owner-approved development-signed, unnotarized release. No personal playlists or provider credentials are bundled.
 ]]></description>
-            <enclosure url="https://github.com/Musabaxmedov94/IPTVMac/releases/download/v0.25.41/IPTVMac-macos-arm64.zip" length="24290271" type="application/octet-stream" sparkle:edSignature="dL2jHWmEWLSNbLODHbRjowHAXk2G/m+5bOehvXRMbexiHAjLridKc9Dx8vHs9Ce2ZtGFMPhxHguCnfZHTUFbAg=="></enclosure>
+            <enclosure url="https://github.com/Musabaxmedov94/IPTVMac/releases/download/v0.25.42/IPTVMac-macos-arm64.zip" length="24300729" type="application/octet-stream" sparkle:edSignature="zIeAyLIQOa5+8HIrKjRzZyVTXCASrJYv8PC2GV+5jAYgbk/OnIju/HLsYPqybVthViN7nSCc88NpEvTfNtz0Bg=="></enclosure>
         </item>
     </channel>
 </rss><!-- sparkle-signatures:
-edSignature: YSxDEYr58118ibVlXiOFLRueS5ahyQBVm3wDoSQYllyjMX9ceY4MJURWlWJ069ZGryMjYV+G2vH66N8lYGOyAg==
-length: 2539
+edSignature: lLZRdGHf65COI8MuoIC4apJn0aFFbjJP2zdy6WP4uXLXMpYW0oM5h1LU4Xr5EN0GuJQfoKvjSZ0pMA/IlxRODw==
+length: 2540
 -->
