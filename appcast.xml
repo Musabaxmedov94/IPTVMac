@@ -4,21 +4,23 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>IPTVMac</title>
         <item>
-            <title>0.25.45</title>
-            <pubDate>Tue, 03 Nov 2026 22:37:38 +0400</pubDate>
-            <link>https://github.com/Musabaxmedov94/IPTVMac/releases/tag/v0.25.45</link>
-            <sparkle:version>2545</sparkle:version>
-            <sparkle:shortVersionString>0.25.45</sparkle:shortVersionString>
+            <title>0.25.46</title>
+            <pubDate>Tue, 03 Nov 2026 23:29:57 +0400</pubDate>
+            <link>https://github.com/Musabaxmedov94/IPTVMac/releases/tag/v0.25.46</link>
+            <sparkle:version>2546</sparkle:version>
+            <sparkle:shortVersionString>0.25.46</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="plain-text"><![CDATA[- Live TV now keeps the programme guide loading while you switch between Home, Live and TV Guide, and picks up an updated guide saved for the same playlist.
-- The channel panel shows the current programme, time remaining, description and upcoming schedule when available. It distinguishes loading and guide errors from a missing schedule.
-- The compact channel actions menu includes Favorites, lists, Layout and Display Options.
+            <description sparkle:format="plain-text"><![CDATA[- The compact sidebar playlist card has separate controls for reloading and opening its menu.
+- The reload arrow spins while the provider is contacted. Xtream reloads show movies, series and live channels in sequence, then confirm when the catalogue has been saved.
+- The playlist menu shows account expiry and connection counts when Xtream provides them.
+- The profile popover opens above the profile card and includes Add, Manage Profiles and Settings.
+- Keyboard shortcuts: ⌘R to reload, ⇧⌘R to update the guide, ⌘N to add a playlist, ⌥⌘P to manage playlists, and ⌘, for Settings.
 ]]></description>
-            <enclosure url="https://github.com/Musabaxmedov94/IPTVMac/releases/download/v0.25.45/IPTVMac-macos-arm64.zip" length="24587940" type="application/octet-stream" sparkle:edSignature="igPNB8wNDWiVoQ+D0J9fz5WrPZdMUpD5gSf/ecRd1s98EA2Epj8aUqyZ1AUB9TRc0chURV1EATwe5LYII2fAAA=="></enclosure>
+            <enclosure url="https://github.com/Musabaxmedov94/IPTVMac/releases/download/v0.25.46/IPTVMac-macos-arm64.zip" length="24693942" type="application/octet-stream" sparkle:edSignature="nsNW471ATGZurxgse4l0PLdi1NxC1v7dH603pQ1sCYP/gHcWYd33d8v3tZla/8U6IOP+BYLUQVOhaRF+fo+/Cg=="></enclosure>
         </item>
     </channel>
 </rss><!-- sparkle-signatures:
-edSignature: YcIm/8A1Voy2XnLvG79glV5i2UIz5IBWQYuOeC496jdtx1yPhafo4MZbBccUaQ1HEvkCKSX2lsQ0+HW/CWQEDg==
-length: 1737
+edSignature: u9YxogCVauJT+3ntFZMHFR7mEm4UUpiKoj+Le5O1k8GdQSzRhpszdd8Cjc+ar4a31ga3JTCrz7UpMmF1LD1VDw==
+length: 1906
 -->
