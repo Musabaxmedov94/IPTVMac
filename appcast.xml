@@ -4,26 +4,29 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>IPTVMac</title>
         <item>
-            <title>0.25.40</title>
-            <pubDate>Tue, 03 Nov 2026 12:01:42 +0400</pubDate>
-            <link>https://github.com/Musabaxmedov94/IPTVMac/releases/tag/v0.25.40</link>
-            <sparkle:version>2540</sparkle:version>
-            <sparkle:shortVersionString>0.25.40</sparkle:shortVersionString>
+            <title>0.25.41</title>
+            <pubDate>Tue, 03 Nov 2026 15:53:45 +0400</pubDate>
+            <link>https://github.com/Musabaxmedov94/IPTVMac/releases/tag/v0.25.41</link>
+            <sparkle:version>2541</sparkle:version>
+            <sparkle:shortVersionString>0.25.41</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="plain-text"><![CDATA[IPTVMac 0.25.40
+            <description sparkle:format="plain-text"><![CDATA[Downloads now use one media connection at a time. Opening the player pauses active downloads after their connection is closed; closing the player resumes only automatically paused downloads. Other downloads wait in a queue.
 
-- Show one poster for regional copies of the same movie or series, keeping different release years separate. Watch still offers the available provider categories.
-- Open Continue Watching directly in the player, resuming ten seconds before the saved position. Series continue with the last observed episode.
-- Improve video frame pacing and reduce repeated audio/subtitle menu work for titles with many tracks.
-- Protect saved progress during startup, seeking and player handoffs.
+Completed downloads now have a confirmed Delete action that moves the original and any MP4 copy to Trash and removes the app entry. Missing files are detected when returning to Downloads or reactivating the app.
 
-For Apple Silicon Macs running macOS 14 or later. This development-signed build is not notarized; macOS may require its normal launch approval.
+New optional Create MP4 Copy action copies compatible video/audio from a completed MKV without re-encoding. The original MKV, including subtitles, is kept. Uses the bundled FFmpeg helper and existing LGPL media runtime; no extra installation is needed.
+
+HTTP 509 now explains provider connection/bandwidth limits without automatic retry loops. Provider limits and streams opened by other applications/devices remain outside the app's control.
+
+Validated with 66 focused download, playback and account tests, including local HTTP pause/resume, a one-connection peak, deletion and real MP4 stream-copy tests using the signed bundled helper. No personal playlists or provider credentials are included.
+
+Apple Silicon, macOS 14+. This owner-approved release is development-signed and unnotarized.
 ]]></description>
-            <enclosure url="https://github.com/Musabaxmedov94/IPTVMac/releases/download/v0.25.40/IPTVMac-macos-arm64.zip" length="24069673" type="application/octet-stream" sparkle:edSignature="t41h3j2az1hkLlOMORQhJAXI8jvsR+/qC+14et5aXX47Hx1jqqth+8VPcrvo9+DNDkUE5JqX1cHrY5vQvkFPBQ=="></enclosure>
+            <enclosure url="https://github.com/Musabaxmedov94/IPTVMac/releases/download/v0.25.41/IPTVMac-macos-arm64.zip" length="24290271" type="application/octet-stream" sparkle:edSignature="dL2jHWmEWLSNbLODHbRjowHAXk2G/m+5bOehvXRMbexiHAjLridKc9Dx8vHs9Ce2ZtGFMPhxHguCnfZHTUFbAg=="></enclosure>
         </item>
     </channel>
 </rss><!-- sparkle-signatures:
-edSignature: xiG9EzBCEyVz1E6ex5L8i9YBDno/ig2gIzWmEduszLnTaMIQUhgOt/2WmUBwpS1Cxm/BA/4KNE/ygVZYn4G/Cg==
-length: 1951
+edSignature: YSxDEYr58118ibVlXiOFLRueS5ahyQBVm3wDoSQYllyjMX9ceY4MJURWlWJ069ZGryMjYV+G2vH66N8lYGOyAg==
+length: 2539
 -->
