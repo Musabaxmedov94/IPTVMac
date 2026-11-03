@@ -4,23 +4,20 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>IPTVMac</title>
         <item>
-            <title>0.25.46</title>
-            <pubDate>Tue, 03 Nov 2026 23:29:57 +0400</pubDate>
-            <link>https://github.com/Musabaxmedov94/IPTVMac/releases/tag/v0.25.46</link>
-            <sparkle:version>2546</sparkle:version>
-            <sparkle:shortVersionString>0.25.46</sparkle:shortVersionString>
+            <title>0.25.47</title>
+            <pubDate>Tue, 03 Nov 2026 23:55:11 +0400</pubDate>
+            <link>https://github.com/Musabaxmedov94/IPTVMac/releases/tag/v0.25.47</link>
+            <sparkle:version>2547</sparkle:version>
+            <sparkle:shortVersionString>0.25.47</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="plain-text"><![CDATA[- The compact sidebar playlist card has separate controls for reloading and opening its menu.
-- The reload arrow spins while the provider is contacted. Xtream reloads show movies, series and live channels in sequence, then confirm when the catalogue has been saved.
-- The playlist menu shows account expiry and connection counts when Xtream provides them.
-- The profile popover opens above the profile card and includes Add, Manage Profiles and Settings.
-- Keyboard shortcuts: ⌘R to reload, ⇧⌘R to update the guide, ⌘N to add a playlist, ⌥⌘P to manage playlists, and ⌘, for Settings.
+            <description sparkle:format="plain-text"><![CDATA[- The sidebar toggle stays visible in fullscreen. It sits above the playlist at the right edge of the sidebar, and a Show Sidebar button restores the hidden panel.
+- TMDB can resolve a title such as FROM (2022) across a multi-page search when the title, year and poster verify the match. Its description and trailer now load in the detail view.
 ]]></description>
-            <enclosure url="https://github.com/Musabaxmedov94/IPTVMac/releases/download/v0.25.46/IPTVMac-macos-arm64.zip" length="24693942" type="application/octet-stream" sparkle:edSignature="nsNW471ATGZurxgse4l0PLdi1NxC1v7dH603pQ1sCYP/gHcWYd33d8v3tZla/8U6IOP+BYLUQVOhaRF+fo+/Cg=="></enclosure>
+            <enclosure url="https://github.com/Musabaxmedov94/IPTVMac/releases/download/v0.25.47/IPTVMac-macos-arm64.zip" length="24710694" type="application/octet-stream" sparkle:edSignature="pLSn7cOc37svgGgxPDQZCtJAmXZYLA2N9Uu8MZctlYTl5Ifj5isfW9iqKSrmE+fCuggvZGMon/AkME1E0XWWDQ=="></enclosure>
         </item>
     </channel>
 </rss><!-- sparkle-signatures:
-edSignature: u9YxogCVauJT+3ntFZMHFR7mEm4UUpiKoj+Le5O1k8GdQSzRhpszdd8Cjc+ar4a31ga3JTCrz7UpMmF1LD1VDw==
-length: 1906
+edSignature: 19AaKQBm5nsumSOJa49Mf70C9SlNf6+kWzCSJLscYr02pKAZ/MRJnln+ryvIMNOrKWjy/ubr7oAVuv3H7jH3Bg==
+length: 1653
 -->
