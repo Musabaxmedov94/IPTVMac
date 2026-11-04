@@ -4,23 +4,22 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>IPTVMac</title>
         <item>
-            <title>0.25.48</title>
-            <pubDate>Wed, 04 Nov 2026 04:08:54 +0400</pubDate>
-            <link>https://github.com/Musabaxmedov94/IPTVMac/releases/tag/v0.25.48</link>
-            <sparkle:version>2548</sparkle:version>
-            <sparkle:shortVersionString>0.25.48</sparkle:shortVersionString>
+            <title>0.25.49</title>
+            <pubDate>Wed, 04 Nov 2026 04:39:28 +0400</pubDate>
+            <link>https://github.com/Musabaxmedov94/IPTVMac/releases/tag/v0.25.49</link>
+            <sparkle:version>2549</sparkle:version>
+            <sparkle:shortVersionString>0.25.49</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
             <description sparkle:format="plain-text"><![CDATA[Apple Silicon (arm64), macOS 14 or later. This release is signed for development and is not notarized by Apple. macOS may block its first launch.
 
-- Search shows one movie poster per title and release year, with separate posters for remakes.
-- Watch lists available versions of the same movie title across release years, starting with the highest labeled quality. Each version shows its year and category, with its saved playback position when available.
-- The movie detail button always reads Watch. The sidebar stops at the new maximum width of 276 points.
+- Keep scrolling in the Trending Movies and Trending Shows rows on Home to load the next group of matches without opening the full collection.
+- Continue Watching in Movies and Series uses the same artwork lookup as Home, with a fallback to the playlist provider when suitable artwork is available.
 ]]></description>
-            <enclosure url="https://github.com/Musabaxmedov94/IPTVMac/releases/download/v0.25.48/IPTVMac-macos-arm64.zip" length="24736775" type="application/octet-stream" sparkle:edSignature="GEpzHd7dd5EyHkQK8A21z0OksX8OEol9uwjefwmRJ1NWqSxRnRVd7abUYI++dlimMH3LVpGGnThooYJXzt7mBA=="></enclosure>
+            <enclosure url="https://github.com/Musabaxmedov94/IPTVMac/releases/download/v0.25.49/IPTVMac-macos-arm64.zip" length="24755962" type="application/octet-stream" sparkle:edSignature="rb6MCaAqHeaybpgoe23IuBo+6nwbcaPcIUEq4GDACxvjq+JZA6ilqiQTSJ2CeWLMPZSTnmGDsrfleHvn6vhuCA=="></enclosure>
         </item>
     </channel>
 </rss><!-- sparkle-signatures:
-edSignature: jEVMvClpFQDOqhNWEvjPy5kMEe96+6wZvV2a9xLv+maBfllKcigOzhJBdwYaMAQczuRi3moxAvH5MLjgF94eCw==
-length: 1867
+edSignature: UPCO82cmpPRca9igYxfXg0QMp0Llglq0OBzuCL8tC7wxCQIUt2g1pq/EJK3RXNrtsniKR3DJ1FLq8BBGpp3TAA==
+length: 1754
 -->
