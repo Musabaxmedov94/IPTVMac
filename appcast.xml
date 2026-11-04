@@ -4,20 +4,23 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>IPTVMac</title>
         <item>
-            <title>0.25.47</title>
-            <pubDate>Tue, 03 Nov 2026 23:55:11 +0400</pubDate>
-            <link>https://github.com/Musabaxmedov94/IPTVMac/releases/tag/v0.25.47</link>
-            <sparkle:version>2547</sparkle:version>
-            <sparkle:shortVersionString>0.25.47</sparkle:shortVersionString>
+            <title>0.25.48</title>
+            <pubDate>Wed, 04 Nov 2026 04:08:54 +0400</pubDate>
+            <link>https://github.com/Musabaxmedov94/IPTVMac/releases/tag/v0.25.48</link>
+            <sparkle:version>2548</sparkle:version>
+            <sparkle:shortVersionString>0.25.48</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="plain-text"><![CDATA[- The sidebar toggle stays visible in fullscreen. It sits above the playlist at the right edge of the sidebar, and a Show Sidebar button restores the hidden panel.
-- TMDB can resolve a title such as FROM (2022) across a multi-page search when the title, year and poster verify the match. Its description and trailer now load in the detail view.
+            <description sparkle:format="plain-text"><![CDATA[Apple Silicon (arm64), macOS 14 or later. This release is signed for development and is not notarized by Apple. macOS may block its first launch.
+
+- Search shows one movie poster per title and release year, with separate posters for remakes.
+- Watch lists available versions of the same movie title across release years, starting with the highest labeled quality. Each version shows its year and category, with its saved playback position when available.
+- The movie detail button always reads Watch. The sidebar stops at the new maximum width of 276 points.
 ]]></description>
-            <enclosure url="https://github.com/Musabaxmedov94/IPTVMac/releases/download/v0.25.47/IPTVMac-macos-arm64.zip" length="24710694" type="application/octet-stream" sparkle:edSignature="pLSn7cOc37svgGgxPDQZCtJAmXZYLA2N9Uu8MZctlYTl5Ifj5isfW9iqKSrmE+fCuggvZGMon/AkME1E0XWWDQ=="></enclosure>
+            <enclosure url="https://github.com/Musabaxmedov94/IPTVMac/releases/download/v0.25.48/IPTVMac-macos-arm64.zip" length="24736775" type="application/octet-stream" sparkle:edSignature="GEpzHd7dd5EyHkQK8A21z0OksX8OEol9uwjefwmRJ1NWqSxRnRVd7abUYI++dlimMH3LVpGGnThooYJXzt7mBA=="></enclosure>
         </item>
     </channel>
 </rss><!-- sparkle-signatures:
-edSignature: 19AaKQBm5nsumSOJa49Mf70C9SlNf6+kWzCSJLscYr02pKAZ/MRJnln+ryvIMNOrKWjy/ubr7oAVuv3H7jH3Bg==
-length: 1653
+edSignature: jEVMvClpFQDOqhNWEvjPy5kMEe96+6wZvV2a9xLv+maBfllKcigOzhJBdwYaMAQczuRi3moxAvH5MLjgF94eCw==
+length: 1867
 -->
