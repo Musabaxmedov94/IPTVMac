@@ -4,24 +4,25 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>IPTVMac</title>
         <item>
-            <title>0.25.52</title>
-            <pubDate>Wed, 04 Nov 2026 20:48:36 +0400</pubDate>
-            <link>https://github.com/Musabaxmedov94/IPTVMac/releases/tag/v0.25.52</link>
-            <sparkle:version>2552</sparkle:version>
-            <sparkle:shortVersionString>0.25.52</sparkle:shortVersionString>
+            <title>0.25.59</title>
+            <pubDate>Wed, 11 Nov 2026 22:04:58 +0400</pubDate>
+            <link>https://github.com/Musabaxmedov94/IPTVMac/releases/tag/v0.25.59</link>
+            <sparkle:version>2559</sparkle:version>
+            <sparkle:shortVersionString>0.25.59</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="plain-text"><![CDATA[Apple Silicon (arm64), macOS 14 or later. This release is development-signed and has not been notarized by Apple. macOS may block its first launch.
+            <description sparkle:format="plain-text"><![CDATA[Apple Silicon (arm64), macOS 14 or later. This release uses Apple development signing. macOS may block first launch because the app has not been notarized by Apple.
 
-- Starts supported formats sooner with the native player and uses mpv for MKV and WebM when appropriate.
-- Applies the latest seek position when you skip several times in a row.
-- Prepares alternate movie and series versions earlier, and plays movies directly from Continue Watching.
-- Improves Live TV player controls.
+- Switch viewing profiles from a compact three-column menu with avatars, an active profile indicator, and shortcuts to profile management and settings.
+- Choose which playlists each new profile can use.
+- Copy favorites and watch history from the previous profile for the selected playlists on first entry. Continue browsing while the import finishes.
+- See a restoring screen while switching profiles.
+- Improve startup recovery for saved playlist connections.
 ]]></description>
-            <enclosure url="https://github.com/Musabaxmedov94/IPTVMac/releases/download/v0.25.52/IPTVMac-macos-arm64.zip" length="24814116" type="application/octet-stream" sparkle:edSignature="ZJZG+WSixyeCOYMAUmdkNeGKdfP8Gywm2iWWl9k5Gc75ealb6AtLEW/GAsTsqrmWe4xErQ2mk0Yll/sgrg/ODA=="></enclosure>
+            <enclosure url="https://github.com/Musabaxmedov94/IPTVMac/releases/download/v0.25.59/IPTVMac-macos-arm64.zip" length="25374839" type="application/octet-stream" sparkle:edSignature="0lBFnI9Mmv/aASdmtYbWHK7C28WJKEQXNEu8ClqPtlmad4fqWfj/LIzQ+ZV20W+cTBMJrsL7Paz8/kqbgJ0dAA=="></enclosure>
         </item>
     </channel>
 </rss><!-- sparkle-signatures:
-edSignature: CwkJKlhhrHZB4sv5yQoJJguSOoEUrSoyI5W3ePn0scHHu4PnNES/uxoi4CpaCBUZKo4qbhhgV//D02jBYSstBg==
-length: 1777
+edSignature: WW9m6BRHmel8ug70fShs3K8ZrXUR3+9OX3CvY4GUJmlV9FTZzQkp8dFdhczEK+vx7PrXizrVgAL43j/ZSzktBw==
+length: 1936
 -->
