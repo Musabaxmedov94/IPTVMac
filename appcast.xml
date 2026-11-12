@@ -4,21 +4,21 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>IPTVMac</title>
         <item>
-            <title>0.25.60</title>
-            <pubDate>Thu, 12 Nov 2026 07:40:33 +0400</pubDate>
-            <link>https://github.com/Musabaxmedov94/IPTVMac/releases/tag/v0.25.60</link>
-            <sparkle:version>2560</sparkle:version>
-            <sparkle:shortVersionString>0.25.60</sparkle:shortVersionString>
+            <title>0.25.61</title>
+            <pubDate>Thu, 12 Nov 2026 08:12:51 +0400</pubDate>
+            <link>https://github.com/Musabaxmedov94/IPTVMac/releases/tag/v0.25.61</link>
+            <sparkle:version>2561</sparkle:version>
+            <sparkle:shortVersionString>0.25.61</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="plain-text"><![CDATA[Profile switching opens the selected profile as soon as its local library is ready. The Home catalogue and downloads finish loading in the background.
+            <description sparkle:format="plain-text"><![CDATA[My Account now shows the signed-in account name and email, with separate Sign Out and Delete Account actions. Sign Out preserves the local library. Account deletion requires the current password and explicit confirmation. Local files remain on the Mac, but deleting the account removes access to its library in IPTVMac.
 
-This build targets Apple Silicon with macOS 14 or later. It uses Apple development signing. macOS may block its first launch because the app has not been notarized by Apple.
+This build targets Apple Silicon with macOS 14 or later. It uses Apple development signing and has not been notarized by Apple, so macOS may block its first launch.
 ]]></description>
-            <enclosure url="https://github.com/Musabaxmedov94/IPTVMac/releases/download/v0.25.60/IPTVMac-macos-arm64.zip" length="25374902" type="application/octet-stream" sparkle:edSignature="GKaSkYv8V1QECziMcts/+ybzJjuE2cwCiV0UqaS4hdkqMfI2Ms4VHU4p7CHlROToa1dAJF4nRapgcBVu03tKCQ=="></enclosure>
+            <enclosure url="https://github.com/Musabaxmedov94/IPTVMac/releases/download/v0.25.61/IPTVMac-macos-arm64.zip" length="25418727" type="application/octet-stream" sparkle:edSignature="etLiSf8RRvCxeUWa2IZzxQCiIJ4u7gbbT8EoaRUWU/rgVdWg88hvtmflZQsED30wgTX9JmrQ8zHyTLl8K5hKAw=="></enclosure>
         </item>
     </channel>
 </rss><!-- sparkle-signatures:
-edSignature: 7d7y8vxrWPxzu0UUL+hbqrS2ROym63q3GWITtR//B6yt4gjKxNlLsKZmWwbOqZ6nzO9OjNo7LSLYRoLIsvEBAA==
-length: 1634
+edSignature: yLFTyFXqhQ2k3onE7Po9f2kYtNmMdYLYX16F4YqgVJ3Ivqi2ujWehGlS0U4uVtBOWti3WetlFDzvRspXANZIDQ==
+length: 1794
 -->
