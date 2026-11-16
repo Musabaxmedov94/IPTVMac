@@ -4,27 +4,25 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>IPTVMac</title>
         <item>
-            <title>0.25.67</title>
-            <pubDate>Mon, 16 Nov 2026 07:29:52 +0400</pubDate>
-            <link>https://github.com/Musabaxmedov94/IPTVMac/releases/tag/v0.25.67</link>
-            <sparkle:version>2567</sparkle:version>
-            <sparkle:shortVersionString>0.25.67</sparkle:shortVersionString>
+            <title>0.25.69</title>
+            <pubDate>Mon, 16 Nov 2026 08:42:56 +0400</pubDate>
+            <link>https://github.com/Musabaxmedov94/IPTVMac/releases/tag/v0.25.69</link>
+            <sparkle:version>2569</sparkle:version>
+            <sparkle:shortVersionString>0.25.69</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="plain-text"><![CDATA[IPTVMac 0.25.67 for Apple Silicon Macs running macOS 14 or later.
+            <description sparkle:format="plain-text"><![CDATA[IPTVMac 0.25.69 for Apple Silicon Macs running macOS 14 or later.
 
-- Reopen the main window from the Dock after closing it with the red button.
-- Browse and edit playlists in Manage Playlists, with provider expiry dates, channel counts, and connection limits where available.
-- Set Live TV, Movies, and Series visibility for each profile. Refresh playlists and TV guides on separate schedules.
-- Add Xtream Codes and M3U playlists, including connection details pasted from provider messages.
-- Switch playlists and live previews more responsively in large libraries.
+- Restore Previous Data now opens inside Settings and reads saved data on this Mac.
+- The results show the current profile’s playlist, favorite, and watch-history counts, including zero when a category is empty.
+- Check Again recalculates the counts. When archived items are available, Restore Saved Items brings them back and records the restoration date.
 
 This build uses Apple Development signing and is unnotarized. macOS may block first launch. The ZIP and update feed are signed for Sparkle.
 ]]></description>
-            <enclosure url="https://github.com/Musabaxmedov94/IPTVMac/releases/download/v0.25.67/IPTVMac-macos-arm64.zip" length="26275458" type="application/octet-stream" sparkle:edSignature="RbOKkaAV8/FcRLs31+adlurBVxWtH8MroBvcits0dIIvt0kQTLpTGY1OA+Mg4wzEIVciT2AL0yOLUDGKYV2nDA=="></enclosure>
+            <enclosure url="https://github.com/Musabaxmedov94/IPTVMac/releases/download/v0.25.69/IPTVMac-macos-arm64.zip" length="26331666" type="application/octet-stream" sparkle:edSignature="Mdtbkb5ZU3xPLpmuKdmrxi8h1Qtjk+5ruG8XFIIUGkoylnOfem8ixPAzNlxf3DfF55GQPGDW5cOFUFv2SOKgBA=="></enclosure>
         </item>
     </channel>
 </rss><!-- sparkle-signatures:
-edSignature: 2e2xLbi2gZlW3g/r6hrP2wBo3G2PavYsI+F5wiNlMh44fgtlpLnJUHmSwWL09iFagxNx0WB64HJX7AjuQhrgBg==
-length: 2016
+edSignature: QlxOzI5oWhU/TjHsLUXGp2f7kg4UkwhqEsOr/z6HMurtZ3ziX4hi10/rD+Jv0yMvt/ck/6T2AvAzsqGXFMrDDQ==
+length: 1875
 -->
