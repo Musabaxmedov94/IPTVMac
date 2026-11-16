@@ -4,25 +4,27 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>IPTVMac</title>
         <item>
-            <title>0.25.63</title>
-            <pubDate>Sun, 15 Nov 2026 15:02:05 +0400</pubDate>
-            <link>https://github.com/Musabaxmedov94/IPTVMac/releases/tag/v0.25.63</link>
-            <sparkle:version>2563</sparkle:version>
-            <sparkle:shortVersionString>0.25.63</sparkle:shortVersionString>
+            <title>0.25.67</title>
+            <pubDate>Mon, 16 Nov 2026 07:29:52 +0400</pubDate>
+            <link>https://github.com/Musabaxmedov94/IPTVMac/releases/tag/v0.25.67</link>
+            <sparkle:version>2567</sparkle:version>
+            <sparkle:shortVersionString>0.25.67</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="plain-text"><![CDATA[All Playlists uses the standard Home, Live, Movies, and Series screens. Each playlist keeps its own category order, and the next playlist starts where the previous one ends.
+            <description sparkle:format="plain-text"><![CDATA[IPTVMac 0.25.67 for Apple Silicon Macs running macOS 14 or later.
 
-Selecting a single playlist hides sections without content. A playlist with only live channels opens directly in Live.
+- Reopen the main window from the Dock after closing it with the red button.
+- Browse and edit playlists in Manage Playlists, with provider expiry dates, channel counts, and connection limits where available.
+- Set Live TV, Movies, and Series visibility for each profile. Refresh playlists and TV guides on separate schedules.
+- Add Xtream Codes and M3U playlists, including connection details pasted from provider messages.
+- Switch playlists and live previews more responsively in large libraries.
 
-The playlist menu supports individual selection, reloading playlists, and updating the TV guide.
-
-This build supports Apple Silicon on macOS 14 or later. It uses Apple development signing and has not been notarized by Apple, so macOS may block its first launch.
+This build uses Apple Development signing and is unnotarized. macOS may block first launch. The ZIP and update feed are signed for Sparkle.
 ]]></description>
-            <enclosure url="https://github.com/Musabaxmedov94/IPTVMac/releases/download/v0.25.63/IPTVMac-macos-arm64.zip" length="25653371" type="application/octet-stream" sparkle:edSignature="6ymEmEUk6Lqfh2YXnqse3PN9T+mD0GIF2RuBOWc/As5tZ2jnyboMCSH0nEu00iDSm+3QB9z/YAAtkQvYazvpBQ=="></enclosure>
+            <enclosure url="https://github.com/Musabaxmedov94/IPTVMac/releases/download/v0.25.67/IPTVMac-macos-arm64.zip" length="26275458" type="application/octet-stream" sparkle:edSignature="RbOKkaAV8/FcRLs31+adlurBVxWtH8MroBvcits0dIIvt0kQTLpTGY1OA+Mg4wzEIVciT2AL0yOLUDGKYV2nDA=="></enclosure>
         </item>
     </channel>
 </rss><!-- sparkle-signatures:
-edSignature: oa5Dl4ZlU23rHHOHCtv1DEKU7QKb2MXne0QaRLh4TKmwp4pnwQkrG8GixOahosWSDawmoeJBP5YxazCvV3OBBw==
-length: 1865
+edSignature: 2e2xLbi2gZlW3g/r6hrP2wBo3G2PavYsI+F5wiNlMh44fgtlpLnJUHmSwWL09iFagxNx0WB64HJX7AjuQhrgBg==
+length: 2016
 -->
