@@ -4,25 +4,24 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>IPTVMac</title>
         <item>
-            <title>0.25.69</title>
-            <pubDate>Mon, 16 Nov 2026 08:42:56 +0400</pubDate>
-            <link>https://github.com/Musabaxmedov94/IPTVMac/releases/tag/v0.25.69</link>
-            <sparkle:version>2569</sparkle:version>
-            <sparkle:shortVersionString>0.25.69</sparkle:shortVersionString>
+            <title>0.25.70</title>
+            <pubDate>Mon, 16 Nov 2026 16:11:39 +0400</pubDate>
+            <link>https://github.com/Musabaxmedov94/IPTVMac/releases/tag/v0.25.70</link>
+            <sparkle:version>2570</sparkle:version>
+            <sparkle:shortVersionString>0.25.70</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="plain-text"><![CDATA[IPTVMac 0.25.69 for Apple Silicon Macs running macOS 14 or later.
+            <description sparkle:format="plain-text"><![CDATA[IPTVMac 0.25.70 for Apple Silicon Macs running macOS 14 or later.
 
-- Restore Previous Data now opens inside Settings and reads saved data on this Mac.
-- The results show the current profile’s playlist, favorite, and watch-history counts, including zero when a category is empty.
-- Check Again recalculates the counts. When archived items are available, Restore Saved Items brings them back and records the restoration date.
+- Fixed a live playback interruption while scrolling the category menu in the player's Channels panel. Playback state updates continue while the menu is open, avoiding a false stall and automatic reconnect.
+- Large category menus keep their entries in place while the video plays. Selecting a category changes the channel list, and selecting a channel changes the stream.
 
 This build uses Apple Development signing and is unnotarized. macOS may block first launch. The ZIP and update feed are signed for Sparkle.
 ]]></description>
-            <enclosure url="https://github.com/Musabaxmedov94/IPTVMac/releases/download/v0.25.69/IPTVMac-macos-arm64.zip" length="26331666" type="application/octet-stream" sparkle:edSignature="Mdtbkb5ZU3xPLpmuKdmrxi8h1Qtjk+5ruG8XFIIUGkoylnOfem8ixPAzNlxf3DfF55GQPGDW5cOFUFv2SOKgBA=="></enclosure>
+            <enclosure url="https://github.com/Musabaxmedov94/IPTVMac/releases/download/v0.25.70/IPTVMac-macos-arm64.zip" length="26332311" type="application/octet-stream" sparkle:edSignature="YlibwIaPDR9u/JRmmthnC6eCBFvv/QhYtl99mAipQZ0KJchaGkDAIYbzQxCqZ3NUo4wNONRyDrAWsqAaWR2dAQ=="></enclosure>
         </item>
     </channel>
 </rss><!-- sparkle-signatures:
-edSignature: QlxOzI5oWhU/TjHsLUXGp2f7kg4UkwhqEsOr/z6HMurtZ3ziX4hi10/rD+Jv0yMvt/ck/6T2AvAzsqGXFMrDDQ==
-length: 1875
+edSignature: w0QoUWNjrGbYA67ZbOl1Kya9Ln1flshVl2haXAM+i4Okkfv843DzN0XESua7emq+s/wezyICmXnVmi4Kh+t8DA==
+length: 1888
 -->
